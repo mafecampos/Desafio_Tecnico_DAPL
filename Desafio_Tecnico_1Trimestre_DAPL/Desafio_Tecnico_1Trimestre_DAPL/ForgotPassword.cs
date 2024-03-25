@@ -16,5 +16,15 @@ namespace Desafio_Tecnico_1Trimestre_DAPL
         {
             InitializeComponent();
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ForgotPassword_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
