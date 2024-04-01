@@ -43,7 +43,7 @@
             this.LoginBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.LoginBox.ForeColor = System.Drawing.Color.Purple;
             this.LoginBox.Location = new System.Drawing.Point(440, 204);
-            this.LoginBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.LoginBox.Margin = new System.Windows.Forms.Padding(4);
             this.LoginBox.Name = "LoginBox";
             this.LoginBox.Size = new System.Drawing.Size(256, 22);
             this.LoginBox.TabIndex = 0;
@@ -93,7 +93,7 @@
             this.SenhaBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.SenhaBox.ForeColor = System.Drawing.Color.Purple;
             this.SenhaBox.Location = new System.Drawing.Point(440, 246);
-            this.SenhaBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.SenhaBox.Margin = new System.Windows.Forms.Padding(4);
             this.SenhaBox.Name = "SenhaBox";
             this.SenhaBox.PasswordChar = '✯';
             this.SenhaBox.Size = new System.Drawing.Size(256, 22);
@@ -105,7 +105,7 @@
             this.Entrar.Font = new System.Drawing.Font("Myanmar Text", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Entrar.ForeColor = System.Drawing.Color.Indigo;
             this.Entrar.Location = new System.Drawing.Point(489, 304);
-            this.Entrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Entrar.Margin = new System.Windows.Forms.Padding(4);
             this.Entrar.Name = "Entrar";
             this.Entrar.Size = new System.Drawing.Size(100, 28);
             this.Entrar.TabIndex = 5;
@@ -125,6 +125,7 @@
             this.EsquecerSenha.Size = new System.Drawing.Size(101, 13);
             this.EsquecerSenha.TabIndex = 6;
             this.EsquecerSenha.Text = "Esqueceu a senha?";
+            this.EsquecerSenha.Click += new System.EventHandler(this.EsquecerSenha_Click);
             // 
             // Text1
             // 
@@ -153,7 +154,7 @@
             this.Controls.Add(this.Login);
             this.Controls.Add(this.Nome);
             this.Controls.Add(this.LoginBox);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);

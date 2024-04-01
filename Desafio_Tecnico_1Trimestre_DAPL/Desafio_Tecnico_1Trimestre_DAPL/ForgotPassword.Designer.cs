@@ -90,6 +90,7 @@
             this.forgotbutton.TabIndex = 4;
             this.forgotbutton.Text = "Recebi minha senha!";
             this.forgotbutton.UseVisualStyleBackColor = false;
+            this.forgotbutton.Click += new System.EventHandler(this.forgotbutton_Click);
             // 
             // ForgotPassword
             // 
@@ -102,7 +103,7 @@
             this.Controls.Add(this.ForgotBox);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Forgot);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ForgotPassword";
             this.Text = "ForgotPassword";
             this.Load += new System.EventHandler(this.ForgotPassword_Load);

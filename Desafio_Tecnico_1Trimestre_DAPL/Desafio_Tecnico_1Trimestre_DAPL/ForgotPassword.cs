@@ -26,5 +26,10 @@ namespace Desafio_Tecnico_1Trimestre_DAPL
         {
 
         }
+
+        private void forgotbutton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
     }
 }

@@ -29,7 +29,17 @@ namespace Desafio_Tecnico_1Trimestre_DAPL
 
         private void Text1_Click(object sender, EventArgs e)
         {
+          
+        }
 
+        private void EsquecerSenha_Click(object sender, EventArgs e)
+        {
+            //Criando uma instância do novo formulário
+            ForgotPassword novoForm = new ForgotPassword();
+            this.Hide();
+            //Exibindo o novo formulário
+            novoForm.Show();
+          
         }
     }
 }
